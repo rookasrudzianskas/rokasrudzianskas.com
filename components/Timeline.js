@@ -41,12 +41,10 @@ const Step = ({ title, children }) => {
 const FullTimeline = () => (
   <>
     <Divider />
-    <Year>2018</Year>
+    <Year>2012</Year>
     <ul>
-      <Step title="Started dsmtech.io 🤘🏻">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
+      <Step title="Started coding at coding school 🤘🏻">
+        Reflecting on my big passion for technology, at my young age, I have started coding school! It turned out very well, I have started building projects on my own, which became my passion.
       </Step>
       <Step title="Joined Hy-Vee 🛒">
         It was time for a change in my career, and Hy-Vee came calling. The best
@@ -90,56 +88,14 @@ const FullTimeline = () => (
       </Step>
     </ul>
     <Divider />
-    <Year>2014</Year>
-    <ul>
-      <Step title="Took a Semester Off">
-        I opted to stay at my internship full-time throughout the fall.
-      </Step>
-      <Step title="Landed First Internship">
-        Finally felt like I understood this whole programming thing. My
-        interviewing skills weren't great, but I managed to snag my first
-        internship.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2011</Year>
-    <ul>
-      <Step title="Graduated High School">
-        My hometown had about 1000 people, in total. My graduating class was 36.
-      </Step>
-      <Step title="Started at Iowa State University 🌪❤️">
-        I've been a die-hard Cyclone fan my whole life. It was a no-brainer that
-        I was going to ISU, especially since they have a great Engineering
-        program.
-      </Step>
-      <Step title="Learned How To Program">
-        CS 101. Our professor asked a simple question - "Who here has prior
-        programming experience?". About 80% of the class raised their hands. I
-        knew it was going to be an uphill battle from here.
-      </Step>
-      <Step title="Wanted To Dropout of College">
-        I didn't pick up programming right away. It didn't help we learned C to
-        start – I'm glad I stuck with it, though.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1998</Year>
+    <Year>2012</Year>
     <ul>
       <Step title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
+        I remember many nights searching on the Google and Github how to code one or another app. After many searches, copies, have learned how to code it myself.
       </Step>
     </ul>
     <Divider />
-    <Year>1997</Year>
-    <ul>
-      <Step title="Became a Pokémon Master">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1993</Year>
+    <Year>2002</Year>
     <ul>
       <Step title="Born 👶🏼🍼" />
     </ul>

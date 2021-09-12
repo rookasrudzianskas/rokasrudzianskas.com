@@ -34,11 +34,10 @@ export default function Home({ videos }) {
     <Container>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          Hey, I’m Lee Robinson
+          Hey, I’m Rokas Rudzianskas
         </h1>
         <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
-          I'm a developer, writer, and creator. I work as the Head of Developer
-          Relations at Vercel. You’ve found my personal slice of the internet
+          I'm a developer, writer, and creator. I work as the Head of two impactful startups at CONNEXIOUS and Brainlyemails. You’ve found my personal slice of the internet
           –&nbsp;
           <Link href="/guestbook">
             <a>sign my guestbook</a>
@@ -61,24 +60,19 @@ export default function Home({ videos }) {
           summary="Examining the tips and tricks used to make Stripe's website design a notch above the rest."
           slug="how-stripe-designs-beautiful-websites"
         />
-        <BlogPost
-          title="Creating a Monorepo with Lerna & Yarn Workspaces"
-          summary="In this guide, you will learn how to create a Monorepo to manage multiple packages with a shared build, test, and release process."
-          slug="monorepo-lerna-yarn-workspaces"
-        />
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-          Courses
+          Startups
         </h3>
         <ProjectCard
-          title="React 2025"
-          description="Build and deploy a modern Jamstack application using the most popular open-source software."
-          href="https://react2025.com/"
+          title="CONNEXIOUS"
+          description="Build and deploy your very own website or app with no code development platform, without any pain in the a**"
+          href="https://conexious.com/"
           icon="react2025"
         />
         <ProjectCard
-          title="Learn Next.js"
-          description="A free video course for building static and server-side rendered applications with Next.js and React."
-          href="https://masteringnextjs.com/"
+          title="BRAINLYEMAILS"
+          description="Brainlyemails comes packed with templates for any scenario and functionality to let you hit the ground running — in minutes."
+          href="https://brainlyemails.com/"
           icon="nextjs"
         />
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-12 text-black dark:text-white">
